@@ -1,1 +1,1 @@
-export const server_url: string = "http://localhost:4000";
+export const server_url: string = "https://rakazim-web-server.onrender.com";
