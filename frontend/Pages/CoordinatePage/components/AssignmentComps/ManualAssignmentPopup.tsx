@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import "../../../../CSS/Modal.css";
 import { Assignment, newSchoolClass } from "./types";
 import RegularShow from "./RegularShow";
-import MapShow from "./mapShow";
+import MapShow from "./MapShow";
 import axios from "axios";
 import { server_url } from "../../../../server_url";
 import {
