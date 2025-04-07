@@ -19,6 +19,8 @@
     "strict": false,
     "noImplicitAny": false,
     "noUncheckedIndexedAccess": false,
+    "allowJs": true,
+    "types": [],
     "noUnusedLocals": false,
     "noUnusedParameters": false,
     "noFallthroughCasesInSwitch": true,
