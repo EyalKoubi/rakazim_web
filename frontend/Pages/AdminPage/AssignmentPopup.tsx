@@ -1,7 +1,7 @@
 import { useState } from "react";
 import "../../CSS/Modal.css";
 import RegularShow from "../CoordinatePage/components/AssignmentComps/RegularShow";
-import MapShow from "../CoordinatePage/components/AssignmentComps/mapShow";
+import MapShow from "../CoordinatePage/components/AssignmentComps/MapShow";
 import { Assignment } from "../CoordinatePage/components/AssignmentComps/types";
 import React from "react";
 import {
