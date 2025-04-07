@@ -10,7 +10,7 @@ function App() {
   const [coordi, setCoordi] = useState("");
 
   useEffect(() => {
-    document.body.style.backgroundImage = "url('/src/assets/school.png')";
+    document.body.style.backgroundImage = "url('/school.png')";
     document.body.style.backgroundSize = "cover";
     document.body.style.backgroundRepeat = "no-repeat";
     document.body.style.backgroundPosition = "center";
