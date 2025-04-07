@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import "../../../../CSS/Modal.css";
 import axios from "axios";
 import { server_url } from "../../../../server_url";
-import MapShow from "./mapShow";
+import MapShow from "./MapShow";
 import RegularShow from "./RegularShow";
 import { Assignment } from "./types.ts";
 import MapSavePopup from "./MapSavePopup.tsx";
