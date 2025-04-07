@@ -1,0 +1,94 @@
+.admin-container {
+  text-align: center;
+  padding: 2rem;
+  direction: rtl;
+}
+
+.admin-title {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+  color: #222;
+  text-shadow: 0 0 1px rgba(255, 255, 255, 0.3);
+}
+
+.admin-subtitle {
+  color: #333;
+  text-shadow: 0 0 1px rgba(255, 255, 255, 0.2);
+  margin-bottom: 1.5rem;
+}
+
+.admin-card {
+  background-color: rgba(255, 255, 255, 0.85);
+  border: 2px solid #0057b8;
+  border-radius: 16px;
+  padding: 1.5rem;
+  margin: 1.5rem auto;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.15);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  max-width: 300px;
+  cursor: pointer;
+}
+
+.admin-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.25);
+  background-color: rgba(255, 255, 255, 0.95);
+}
+
+.admin-card h3 {
+  margin-bottom: 0.5rem;
+  color: #003366;
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+
+.admin-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 0.5rem;
+}
+
+.admin-table th,
+.admin-table td {
+  border: 1px solid #ddd;
+  padding: 6px;
+  text-align: center;
+}
+
+.admin-table th {
+  background-color: #f0f0f0;
+  font-weight: bold;
+}
+
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 999;
+}
+
+.modal-content {
+  background-color: white;
+  border-radius: 12px;
+  padding: 2rem;
+  width: 90%;
+  max-width: 850px;
+  max-height: 90vh;
+  overflow-y: auto;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+  direction: rtl;
+  text-align: right;
+}
+
+.modal-actions {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 1rem;
+  gap: 1rem;
+}

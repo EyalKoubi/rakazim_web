@@ -1,0 +1,108 @@
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 999;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-content {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  width: 90%;
+  max-width: 750px;
+  font-size: 0.75rem;
+  text-align: center;
+  overflow-x: auto;
+  max-height: 90vh;
+  overflow-y: auto;
+}
+
+.modal-content table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+.modal-content th,
+.modal-content td {
+  border: 1px solid #ddd;
+  padding: 6px;
+  text-align: center;
+  font-size: 0.75rem;
+}
+
+.modal-content th {
+  background-color: #f9f9f9;
+}
+
+.edit-table input {
+  width: 100%;
+  padding: 4px;
+  font-size: 0.75rem;
+  text-align: center;
+}
+
+.modal-actions {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.modal-actions button {
+  padding: 6px 12px;
+  font-size: 0.75rem;
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+}
+
+.modal-actions button:hover {
+  background-color: #0056b3;
+}
+
+.edit-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 15px;
+}
+
+.edit-table th,
+.edit-table td {
+  border: 1px solid #ccc;
+  padding: 8px;
+  text-align: center;
+}
+
+.edit-table select,
+.edit-table input {
+  width: 90%;
+  padding: 4px;
+  font-size: 0.9rem;
+}
+
+.manual-assign-btn {
+  background-color: #ffc107;
+  color: #000;
+  border: none;
+  margin: 10px;
+  padding: 10px 16px;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+  margin-bottom: 20px;
+  transition: background-color 0.2s ease;
+}
+
+.manual-assign-btn:hover {
+  background-color: #e0a800;
+}
